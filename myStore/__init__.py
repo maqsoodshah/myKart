@@ -1,5 +1,5 @@
 from flask import Flask
-from ecommerce.config import Config
+from myStore.config import Config
 from flask_mongoengine import MongoEngine
 from mongoengine import connect
 from flask_bcrypt import Bcrypt
@@ -32,10 +32,10 @@ def create_app(config_class=Config):
     db.init_app(app)
     login_manager.init_app(app)
 
-    from ecommerce.main.routes import main
-    from ecommerce.users.routes import users
-    from ecommerce.seller.routes import seller
-    from ecommerce.errors.handlers import errors
+    from myStore.main.routes import main
+    from myStore.users.routes import users
+    from myStore.seller.routes import seller
+    from myStore.errors.handlers import errors
 
     app.register_blueprint(main)
     app.register_blueprint(users)

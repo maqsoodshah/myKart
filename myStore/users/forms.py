@@ -2,9 +2,9 @@ from flask_wtf import FlaskForm, RecaptchaField
 from wtforms import StringField, PasswordField, SubmitField, BooleanField, TextAreaField, IntegerField, FileField, MultipleFileField, validators
 from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationError
 from wtforms.widgets import TextArea
-from ecommerce.models import User
+from myStore.models import User
 from flask_login import current_user
-from ecommerce import mongo
+from myStore import mongo
 
 
 class ReviewForm(FlaskForm):

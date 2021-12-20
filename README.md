@@ -1,9 +1,9 @@
-   ## Fashion Store 
-   *An ecommerce website of garments*
+   ## myKart
+   *Intended to develop an e-store*
 
 
 ## Prerequisities
-- Python 3.7
+- Python 3.8
 - Mongodb
 
 ## How to start?
@@ -32,7 +32,7 @@
  - Flask
  - Mongodb
  - Html
- - Css
+ - CSS
  - Javascript
 
 
@@ -50,7 +50,8 @@
 - Customer can cancel an order.
 
 ## Under Development:
+- Searching Items
 - Online payment gateway
+- Add to cart
+- Social Connections
 
-## Screenshots
-![image](screenshots/fashion1.png) ![image](screenshots/fashion2.png) ![image](screenshots/fashion3.png) ![image](screenshots/fashion4.png) ![image](screenshots/fashion5.png)![image](screenshots/fashion6.png)![image](screenshots/fashion7.png)![image](screenshots/fashion8.png)![image](screenshots/fashion9.png)![image](screenshots/fashion10.png)![image](screenshots/fashion11.png)![image](screenshots/fashion12.png)![image](screenshots/fashion13.png)![image](screenshots/fashion14.png)![image](screenshots/fashion15.png) ![image](screenshots/fashion16.png)![image](screenshots/fashion17.png)![image](screenshots/fashion18.png)![image](screenshots/fashion19.png)![image](screenshots/fashion20.png)

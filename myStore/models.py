@@ -1,4 +1,4 @@
-from ecommerce import db, login_manager, mongo
+from myStore import db, login_manager, mongo
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from flask import current_app
 from flask_login import UserMixin

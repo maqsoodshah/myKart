@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, jsonify, request
-from ecommerce import mongo
+from myStore import mongo
 from flask_login import current_user
 from bson.objectid import ObjectId
 import json

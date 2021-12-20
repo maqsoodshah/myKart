@@ -1,8 +1,8 @@
-from ecommerce import db, bcrypt, mongo
+from myStore import db, bcrypt, mongo
 from flask import render_template, redirect, url_for, Blueprint, flash, request, redirect, send_from_directory
-from ecommerce.seller.forms import ItemForm
+from myStore.seller.forms import ItemForm
 from flask_login import current_user, login_required, login_user, logout_user
-from ecommerce.models import User
+from myStore.models import User
 from bson.objectid import ObjectId
 import os
 from functools import wraps

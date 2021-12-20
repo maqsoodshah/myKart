@@ -4,12 +4,12 @@ from datetime import datetime, timedelta
 from flask import render_template, redirect, url_for, Blueprint, flash, request, redirect, send_from_directory
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import current_user, login_required, login_user, logout_user
-from ecommerce.users.forms import RequestResetForm, ResetPasswordForm, RegistrationForm, LoginForm, DeliveryForm, ReviewForm
-from ecommerce.seller.forms import SellerForm
-from ecommerce.seller.forms import ItemForm
-from ecommerce.users.utils import send_reset_email, sendPasswordSeller
-from ecommerce import db, bcrypt, mongo
-from ecommerce.models import User
+from myStore.users.forms import RequestResetForm, ResetPasswordForm, RegistrationForm, LoginForm, DeliveryForm, ReviewForm
+from myStore.seller.forms import SellerForm
+from myStore.seller.forms import ItemForm
+from myStore.users.utils import send_reset_email, sendPasswordSeller
+from myStore import db, bcrypt, mongo
+from myStore.models import User
 import json
 from bson.objectid import ObjectId
 import os

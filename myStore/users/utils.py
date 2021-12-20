@@ -2,7 +2,7 @@ import os
 from PIL import Image
 from flask import url_for
 from flask_mail import Message
-from  ecommerce import mail
+from  myStore import mail
 
 
 def save_picture(form_picture):
