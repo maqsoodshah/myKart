@@ -6,6 +6,8 @@
 version: 2
 updates:
   - package-ecosystem: "pip" # See documentation for possible values
-    directory: "mykart/" # Location of package manifests
+    directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    # Allow up to 2 open pull requests for pip dependencies
+    open-pull-requests-limit: 2
