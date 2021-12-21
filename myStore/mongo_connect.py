@@ -14,12 +14,8 @@ import json
 from bson.json_util import dumps
 
 app = Flask(__name__)
-# app.config['MONGO_URI'] = "mongodb://vidulkumar:New2mlab@ds157493.mlab.com:57493/mydatabase"
 app.config['MONGO_URI'] = "mongodb://localhost:27017/myDatabase"
 mongo = PyMongo(app)
-# hashpass = generate_password_hash('password', method='sha256')
-# mongo.db.user.insert_one({'username':'Mohit Arora','email':'arora3mohit@gmail.com', 'password':hashpass, 'role':'adminmo
-
 
 #      Admin details and commands to insert document in user collection
 '''
