@@ -15,8 +15,7 @@ def index():
 #app.config['MONGO_URI'] = 'mongodb://<user>:<password>@<url>:27017/dev?authSource=admin'
 
 
-app.config['MONGO_URI'] = 'mongodb://vidulkumar:New2mlab@ds157493.mlab.com:57493/mydatabase'
-
+app.config['MONGO_URI'] = 'mongodb://localhost:27017/mykart'
 mongo = PyMongo(app)
 
 
