@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM quay.io/repository/bitnami/python
+FROM quay.io/repository/bitnami/python:latest
 
 WORKDIR /myKart
 
