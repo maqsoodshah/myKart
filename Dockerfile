@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1
+# mykart
 
 FROM FROM python:3.8-alpine
 
