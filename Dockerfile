@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM quay.io/repository/bitnami/python:latest
+FROM FROM python:3.8-alpine
 
 WORKDIR /myKart
 
