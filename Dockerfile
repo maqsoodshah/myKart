@@ -1,4 +1,4 @@
-# mykart
+# mykart app
 
 FROM FROM python:3.8-alpine
 
